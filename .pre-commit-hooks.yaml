@@ -1,0 +1,6 @@
+-   id: test_add_numbers
+    name: test_add_numbers
+    description: test_add_numbers.py
+    entry: test_add_numbers.py
+    language: python
+    stages: [commit, push, manual]

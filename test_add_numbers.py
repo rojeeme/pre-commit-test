@@ -1,7 +1,7 @@
-import unittest
-from other_repo import add_numbers
+from add import add
 
-class TestAddNumbers(unittest.TestCase):
-    def test_addition(self):
-        result = add_numbers(2, 3)
-        self.assertEqual(result, 5)
+
+def test_add_numbers():
+    assert add(1, 2) == 3
+    assert add(0, 0) == 0
+    assert add(-1, 1) == 0
